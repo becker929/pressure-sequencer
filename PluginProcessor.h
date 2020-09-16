@@ -42,6 +42,9 @@ public:
     void setStateInformation (const void* data, int sizeInBytes) override;
 
 private:
+    int loopsSinceLastOn = 0;
+    bool isOn = false;
+
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (AudioPluginAudioProcessor)
 };
