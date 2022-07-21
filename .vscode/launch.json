@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "debug PressureSequencer",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/Applications/REAPER.app/Contents/MacOS/REAPER",
+            // "args": ["-cfgfile","/Users/jonathan/Library/Application Support/REAPER/reaper.ini"],
+            "stopAtEntry": false,
+            "cwd": "/Applications/REAPER.app/Contents/MacOS",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "build PressureSequencer"
+        }
+    ]
+}
