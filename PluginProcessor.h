@@ -41,6 +41,8 @@ public:
     void getStateInformation (juce::MemoryBlock& destData) override;
     void setStateInformation (const void* data, int sizeInBytes) override;
 
+    juce::ValueTree state { "state" };
+
 private:
     int loopsSinceLastOn = 0;
     bool isOn = false;
